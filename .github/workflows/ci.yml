@@ -2,8 +2,9 @@ name: CI test
 
 on:
   pull_request:
+    branches: [ master, main ]
   push:
-    branches: [ main ]
+    branches: [ master, main ]
 
 jobs:
   scan_ruby:
